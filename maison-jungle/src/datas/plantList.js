@@ -1,9 +1,19 @@
+import monstera from '../assets/monstera.jpg'
+import lyrata from '../assets/lyrata.jpg'
+import pothos from '../assets/pothos.jpg'
+import succulent from '../assets/succulent.jpg'
+import olivier from '../assets/olivier.jpg'
+import basil from '../assets/basil.jpg'
+import mint from '../assets/mint.jpg'
+import calathea from '../assets/calathea.jpg'
+import cactus from '../assets/cactus.jpg'
+
 export const plantList = [
 	{
 		name: 'monstera',
 		category: 'classique',
 		id: '1ed',
-        cover:null,
+        cover:monstera,
         light:2,
         water:1
 	},
@@ -11,7 +21,7 @@ export const plantList = [
 		name: 'ficus lyrata',
 		category: 'classique',
 		id: '2ab',
-        cover:null,
+        cover:lyrata,
         light:1,
         water:1
 
@@ -20,16 +30,16 @@ export const plantList = [
 		name: 'pothos argenté',
 		category: 'classique',
 		id: '3sd',
-        cover:null,
+        cover:pothos,
         light:2,
         water:1
 
 	},
 	{
-		name: 'yucca',
+		name: 'calathea',
 		category: 'classique',
 		id: '4kk',
-        cover:null,
+        cover:calathea,
         light:3,
         water:2
 
@@ -38,16 +48,16 @@ export const plantList = [
 		name: 'olivier',
 		category: 'extérieur',
 		id: '5pl',
-        cover:null,
+        cover:olivier,
         light:2,
         water:1
 
 	},
 	{
-		name: 'géranium',
+		name: 'cactus',
 		category: 'extérieur',
 		id: '6uo',
-        cover:null,
+        cover:cactus,
         light:2,
         water:2
 
@@ -56,25 +66,25 @@ export const plantList = [
 		name: 'basilique',
 		category: 'extérieur',
 		id: '7ie',
-        cover:null,
+        cover:basil,
         light:1,
         water:1
 
 	},
 	{
-		name: 'aloe',
+		name: 'succulente',
 		category: 'plante grasse',
 		id: '8fp',
-        cover:null,
+        cover:succulent,
         light:2,
         water:2
 
 	},
 	{
-		name: 'succulente',
+		name: 'menthe',
 		category: 'plante grasse',
 		id: '9vn',
-        cover:null,
+        cover:mint,
         light:1,
         water:2
 

@@ -1,14 +1,19 @@
 import CareScale from './CareScale'
-import CapitalizeFirstLetter from './CapitalizeFirstLetter';
 import '../styles/PlantItem.css'
+// let x = 0
+// const hello = [`Ne cliquez pas SVP`, "Arrêtez SVP", "Non mais vraiment, STOP !", "MAIS JPP !", "Je t'ai report.", "J'ai cassé tes juggestions Youtube"]
+// function handleClick(plantName){
+//     x>5?((x=0) && alert("C'est fini !")):(alert(hello[x] +" "+ `${plantName}`, (x++)))
+// }
 
-// import '../styles/PlantItems.css'
 
-function PlantItem({ id, cover, name, water, light, isBestSale, isSpecialOffer, category }) {
+
+//onClick={() => handleClick(name)} dans la <li>
+function PlantItem({ id, cover, name, water, light }) {
 
     return <li key={id} className='lmj-plant-item'>
         <img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} />
-        {CapitalizeFirstLetter(name)}
+        {name}
 
         <div>
             <CareScale careType='light' scaleValue={light} />
@@ -19,3 +24,5 @@ function PlantItem({ id, cover, name, water, light, isBestSale, isSpecialOffer, 
 }
 
 export default PlantItem
+
+
